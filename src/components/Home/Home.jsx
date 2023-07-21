@@ -14,7 +14,7 @@ const Home = ({ products, fetchProducts, setSelectedProduct }) => {
   const [currentPage, setCurrentPage] = useState(1)
   const productsPerPage = 8
   const [searchedProducts, setSearchedProducts] = useState([])
-  const [showLikedProducts, setShowLikedProducts] = useState(true);
+  const [showLikedProducts, setShowLikedProducts] = useState(false);
 
 
   const handleOpenLikedPage = () => {
