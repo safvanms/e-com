@@ -1,0 +1,32 @@
+.header {
+  height: 60px;
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header h1 {
+  color: var(--blue);
+}
+
+.header__search__sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.header__search__sec input {
+  width: 200px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+
+.header__search__sec div {
+  cursor: pointer;
+  color: var(--grey);
+}
